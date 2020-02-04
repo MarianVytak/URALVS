@@ -1,0 +1,35 @@
+.section-2 {
+  padding: 180px 0;
+  background-image: url('../../assets/img/section-2-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2__play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.section-2__desc {
+  max-width: 540px;
+  margin: 0 auto;
+  font-family: 'bold', sans-serif;
+  font-size: 18px;
+  color: $white;
+  text-align: center;
+}
+
+@include media-breakpoint-down(xs) {
+  .section-2 {
+    padding: 50px 0;
+  }
+  .section-2__play {
+    margin-bottom: 50px;
+  }
+  .section-2__play_link {
+    width: 100px;
+  }
+}

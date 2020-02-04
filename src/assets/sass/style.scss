@@ -1,0 +1,66 @@
+/*******************
+Table of contents
+
+## Bootstrap
+## Twenty
+## Slick
+## Fancybox
+## Customs
+## Intro
+## Section 1
+## Section 2
+## Section 3
+## Section 4
+## Section 5
+## Section 6
+*******************/
+
+
+/* ## Bootstrap
+====================*/
+@import "../../../bower_components/bootstrap/scss/bootstrap.scss";
+
+/* ## Twenty
+====================*/
+@import "customs/twenty";
+
+/* ## Slick
+====================*/
+@import "../../../bower_components/slick-carousel/slick/slick.scss";
+@import "../../../bower_components/slick-carousel/slick/slick-theme.scss";
+
+/* ## Fancybox
+====================*/
+@import "customs/fancybox";
+
+/* ## Customs
+====================*/
+@import "customs/customs";
+
+/* ## Intro
+====================*/
+@import "../../templates/intro/intro";
+
+/* ## Section 1
+====================*/
+@import "../../templates/section-1/section-1";
+
+/* ## Section 2
+====================*/
+@import "../../templates/section-2/section-2";
+
+/* ## Section 3
+====================*/
+@import "../../templates/section-3/section-3";
+
+/* ## Section 4
+====================*/
+@import "../../templates/section-4/section-4";
+
+/* ## Section 5
+====================*/
+@import "../../templates/section-5/section-5";
+
+/* ## Section 6
+====================*/
+@import "../../templates/section-6/section-6";

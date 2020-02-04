@@ -1,0 +1,48 @@
+button {
+  transition: .5s;
+}
+
+.redb {
+  width: 100%;
+  max-width: 280px;
+  border: none;
+  border-radius: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'bold', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background-color: #da251e;
+  padding: 24px 37px;
+  &:hover {
+    background-color: #b61f19;
+  }
+}
+
+.wtb_bordered {
+  background: #e90000;
+  transition: .5s;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "bold", sans-serif;
+  border-radius: 100px;
+  padding: 16px 36px;
+  &:hover {
+    background-color: #b61f19;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .redb {
+    padding: 18px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .redb {
+    max-width: 300px;
+  }
+}

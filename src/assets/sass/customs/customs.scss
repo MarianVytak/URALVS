@@ -1,0 +1,22 @@
+@import "variables";
+@import "reboot";
+
+@import "buttons";
+@import "titles";
+@import "dropdown";
+@import "slider";
+
+.slider-container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
