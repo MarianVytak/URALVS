@@ -1,11 +1,13 @@
 $white: #ffffff !default;
 $black: #000000 !default;
+$main:  #4d67aa !default;
 
 $colors: () !default;
 $colors: map-merge(
 				(
 						"white": $white,
 						"black": $black,
+						"main": $main,
 				),
 				$colors
 );
@@ -15,6 +17,7 @@ $theme-colors: map-merge(
 				(
 						"white": $white,
 						"black": $black,
+						"main": $main,
 				),
 				$theme-colors
 );

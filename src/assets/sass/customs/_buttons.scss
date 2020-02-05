@@ -1,0 +1,10 @@
+.btn-1 {
+    padding: 0.6em 2.2em;
+    border-radius: 5em;
+    background-color: $main;
+    font-size: 16px;
+    color: $white;
+    &:focus {
+        outline: none;
+    }
+}

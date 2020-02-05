@@ -1,36 +1,72 @@
 @font-face {
-    font-family: 'medium';
-    src: url('Gilroy-Medium.woff2') format('woff2'),
-        url('Gilroy-Medium.woff') format('woff'),
-        url('Gilroy-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'black';
-    src: url('Gilroy-Black.woff2') format('woff2'),
-        url('Gilroy-Black.woff') format('woff'),
-        url('Gilroy-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'bold';
-    src: url('Gilroy-Bold.woff2') format('woff2'),
-        url('Gilroy-Bold.woff') format('woff'),
-        url('Gilroy-Bold.ttf') format('truetype');
+    font-family: 'SamsungOne 700';
+    src: url('SamsungOne-700.woff2') format('woff2'),
+        url('SamsungOne-700.woff') format('woff'),
+        url('SamsungOne-700.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'reg';
-    src: url('Gilroy-Regular.woff2') format('woff2'),
-        url('Gilroy-Regular.woff') format('woff'),
-        url('Gilroy-Regular.ttf') format('truetype');
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('SamsungSharpSans-Bold.woff') format('woff'),
+        url('SamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOne 700';
+    src: url('SamsungOne-700_1.woff2') format('woff2'),
+        url('SamsungOne-700_1.woff') format('woff'),
+        url('SamsungOne-700_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOne 400';
+    src: url('SamsungOne-400.woff2') format('woff2'),
+        url('SamsungOne-400.woff') format('woff'),
+        url('SamsungOne-400.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOne 400';
+    src: url('SamsungOne-400_1.woff2') format('woff2'),
+        url('SamsungOne-400_1.woff') format('woff'),
+        url('SamsungOne-400_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans-Bold_1.woff2') format('woff2'),
+        url('SamsungSharpSans-Bold_1.woff') format('woff'),
+        url('SamsungSharpSans-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('CeraPro-Black.woff2') format('woff2'),
+        url('CeraPro-Black.woff') format('woff'),
+        url('CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('CeraPro-Black_1.woff2') format('woff2'),
+        url('CeraPro-Black_1.woff') format('woff'),
+        url('CeraPro-Black_1.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
 }
 

@@ -6,8 +6,40 @@
 @import "dropdown";
 @import "slider";
 
-.slider-container {
-  position: relative;
+.container {
+  z-index: 2;
+}
+
+.bg-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0 80px; 
+  z-index: 1;
+  span {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #2d2f37;
+  }
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 30px;
+  height: 1px;
+  margin: 0 10px;
+  background-color: $white;
 }
 
 @media (min-width: 1200px) {
