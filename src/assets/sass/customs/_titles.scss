@@ -3,3 +3,14 @@
     font-family: 'SamsungOne 700', sans-serif;
     font-size: 42px;
 }
+
+.section-title {
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-family: 'SamsungOne 700', sans-serif;
+    font-size: 42px;
+    color: #e8e8e8;
+    text-transform: uppercase;
+}

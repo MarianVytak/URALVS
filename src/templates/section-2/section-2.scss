@@ -1,13 +1,49 @@
 .section-2 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  background-color: $white;
+  .bg-line {
+    span {
+      background-color: #eeeeee;
+    }
+  }
+}
+
+.section-2__image {
+  text-align: center;
+}
+
+.section-2__content {
+  padding-top: 80px;
+}
+
+.section-2__subtitle {
+    color: rgba(#24272e, .75);
+}
+
+.section-2__list_title {
+    margin-top: 100px;
+    font-family: 'SamsungOne 700', sans-serif;
+    font-size: 18px;
+}
+
+.section-2__list {
+    margin-top: 30px;
+}
+
+.section-2__list_item {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: $white;
-    .bg-line {
-        span {
-            background-color: #eeeeee;
-        }
+    margin-bottom: 10px;
+    padding-left: 45px;
+    font-size: 15px;
+    color: rgba(#24272e, .75);
+    span {
+        position: absolute;
+        top: 3px;
+        left: 0;
+        color: rgba(#4d67aa, .75);
     }
 }

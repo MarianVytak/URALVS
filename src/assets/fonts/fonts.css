@@ -60,13 +60,3 @@
     font-weight: 900;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Cera Pro';
-    src: url('CeraPro-Black_1.woff2') format('woff2'),
-        url('CeraPro-Black_1.woff') format('woff'),
-        url('CeraPro-Black_1.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
